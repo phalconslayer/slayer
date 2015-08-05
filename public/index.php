@@ -12,6 +12,10 @@ try {
 
     require_once APP_ROOT . '/vendor/autoload.php';
 
+    # Pre-Load the dotenv, to access all .env files
+    $dotenv = new Dotenv\Dotenv(APP_ROOT);
+    $dotenv->load();
+
     /*
     |-------------------------------------------------------------
     | Whoops Debugger
