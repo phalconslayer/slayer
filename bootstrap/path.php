@@ -19,5 +19,4 @@ return [
     'lang'          => $base_path.'/resources/lang/',
     'sandbox'       => $base_path.'/sandbox/',
     'storage'       => $base_path.'/storage/',
-
 ]; # end of return
